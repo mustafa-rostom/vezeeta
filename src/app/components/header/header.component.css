@@ -1,0 +1,11 @@
+.navbar {
+    background: #1C6DD0;
+}
+
+#vezeetaLogo {
+    margin-left: 3vw;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}

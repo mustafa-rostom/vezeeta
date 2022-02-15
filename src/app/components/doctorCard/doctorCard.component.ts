@@ -2,11 +2,11 @@ import { Component, OnInit,Input } from '@angular/core';
 import { faSpinner,faMapMarker,faPhone, faDollarSign,faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-child',
-  templateUrl: './child.component.html',
-  styleUrls: ['./child.component.css']
+  selector: 'app-doctorCard',
+  templateUrl: './doctorCard.component.html',
+  styleUrls: ['./doctorCard.component.css']
 })
-export class ChildComponent implements OnInit {
+export class DoctorCardComponent implements OnInit {
 
   constructor() { }
   @Input() name:String='';
